@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    font-family: 'work Sans', Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in(polegada), px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+     */
+    font-size: 1.5em;
+}
