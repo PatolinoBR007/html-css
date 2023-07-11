@@ -11,6 +11,7 @@
         table {
             border-collapse: collapse;
             width: 500px;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -18,14 +19,26 @@
             background-color: #EAECF0;
         }
         th, td, caption {
-            border: 1px solid #A2A9B1;
+            border: 1px solid #848a91;
             padding: 10px;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #ccced3;
+            
+        }
         thead, tfoot {
+            background-color: #ccced3;
+        }
+        tbody > tr:nth-child(2n) {
             background-color: #EAECF0;
         }
         .num {
             text-align: right;
+        }
+        p {
+            width: 100px;
         }
     </style>
 </head>
@@ -36,7 +49,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -152,5 +165,6 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum molestiae accusantium, blanditiis provident a ut sunt corporis inventore enim voluptatibus. Necessitatibus ut expedita, sed molestiae nobis voluptates atque voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magni sunt explicabo, vitae corrupti quae et quam in! Ex optio cum delectus possimus voluptatibus dolor, commodi natus quod sunt consequatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic excepturi aliquam perferendis tempora mollitia aspernatur fugiat blanditiis obcaecati aperiam laborum odit voluptas accusamus, ipsam error nam atque, culpa a magnam?</p>
 </body>
 </html>
