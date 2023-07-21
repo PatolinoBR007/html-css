@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input#button {
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            border: 0;
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="off">
+        <p><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p>
+            <input type="submit" value="Enviar" id="button" onclick="enviar()"></p>
+    </form>
+</body>
+</html>
