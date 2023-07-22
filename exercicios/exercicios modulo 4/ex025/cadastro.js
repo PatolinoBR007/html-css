@@ -1,5 +1,4 @@
-function enviar() {
-    var nome = document.getElementById('inome')
-    var sobrenome = document.getElementById('isobrenome')
-    alert(nome, sobrenome)
-}
+// seus dados foram enviados
+// num vai dar certo 
+
+// um dia eu volto aqui
