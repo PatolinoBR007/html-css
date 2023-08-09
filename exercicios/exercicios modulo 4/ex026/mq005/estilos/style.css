@@ -22,6 +22,7 @@ span#burger {
     color: #fff;
     display: block;
     text-align: center;
+    user-select: none;
 }
 span#burger:hover {
     background-color: #20FAA3;
